@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="static/bookstore.css">
+    </head>
+    <body>
+        <h1>Agregar nuevo Libro</h1>
+        
+        <form action="CrearLibro">
+            <article>
+                <header>
+                    <h2>Informacion General</h2>
+                    <p>
+                        <label>Nombre</label>
+                        <input type="txt" name="nombre" >
+                    </p>
+                    <p>
+                        <label>Precio</label>
+                        <input type="txt" name="precio" >
+                    </p>
+                    <p>
+                        <label>ISBN</label>
+                        <input type="txt" name="isbn" >
+                    </p>
+                    <p>
+                        <label>Fecha de publicacion</label>
+                        <input type="txt" name="fecha" value="">
+                    </p>
+                    <br />
+                    <h2>Informacion del genero</h2>
+                    <p>
+                        <label>Genero</label>
+                            <select name="genero"/>
+                                <option value="Select">Select..</option>
+                                <option value="Juvenil">Juvenil</option>
+                                <option value="Niños">Niños</option>
+                                <option value="Cuentos para dormir">Cuentos para dormir</option>
+                                <option value="Ciencia Ficcion">Ciencia Ficcion</option>
+                                <option value="Terror">Terror</option>
+                                <option value="Literatura de secundaria">Literatura de secundaria</option>
+                                <option value="Politica">Politica</option>
+                                <option value="Enfermeria">Enfermeria</option>
+                                <option value="Terror">Terror</option>
+                                <option value="Historica">Historica</option>
+                                <option value="Aventuras">Aventuras</option>
+                                <option value="Astronomia">Astronomia</option>
+                                <option value="El universo">El universo</option>
+                                <option value="Romantica">Romantica</option>
+                                <option value="Anime">Anime</option>
+                            </select>
+                    </p>
+                    <br />
+                    <h2>Informacion de publicacion</h2>
+                    <p>
+                        <label>Editorial</label>
+                        <input type="txt" name="editorial">
+                    </p>
+                    <p>
+                        <label>Autor</label>
+                        <input type="txt" name="autor">
+                    </p>
+                    <br />
+                    <input type="submit" class="btn" value="Guardar" >
+                </header>
+            </article>
+        </form>
+    </body>
+</html>
